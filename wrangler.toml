@@ -1,0 +1,16 @@
+name = "aidungeon-multiplayer-fix"
+main = "index.js"
+compatibility_date = "2025-05-31"
+
+[durable_objects]
+bindings = [
+  { name = "LOBBY", class_name = "Lobby" }
+]
+
+[[migrations]]
+tag = "v1"
+new_classes = ["Lobby"] # use this for classic DOs
+# OR new_sqlite_classes = ["Lobby"] if you're using the SQLite-based storage
+
+account_id = "<Your cloudflare account ID>"
+workers_dev = true

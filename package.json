@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "build": "echo 'no build step needed'",
+    "deploy": "wrangler deploy"
+  }
+}
