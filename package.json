@@ -1,6 +1,28 @@
 {
+  "name": "aidungeon-multiplayer-enhanced",
+  "version": "0.2.0",
+  "description": "True multiplayer for AI Dungeon with story card synchronization",
+  "main": "worker.js",
   "scripts": {
-    "build": "echo 'no build step needed'",
-    "deploy": "wrangler deploy"
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "tail": "wrangler tail",
+    "delete": "wrangler delete"
+  },
+  "keywords": [
+    "aidungeon",
+    "multiplayer",
+    "websocket",
+    "cloudflare-workers",
+    "userscript"
+  ],
+  "author": "Tokiw0_3",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tokiw0-3/Adungeon-true-multiplayer-backend"
   }
 }
